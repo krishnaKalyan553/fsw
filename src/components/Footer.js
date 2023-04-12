@@ -29,15 +29,6 @@ import './Footer.css'
 function Footer() {
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
-          Enter Text Here (Heading)
-        </p>
-        <p className='footer-subscription-text'>
-          Enter Text Here (Regular)
-        </p>
-        
-      </section>
       {/* <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
@@ -87,6 +78,9 @@ function Footer() {
             </a>
             <a href = "https://www.linkedin.com" target="_blank" rel="noreferrer noopener">
               <BsLinkedin className='social-icon-link-lkdin'/>
+            </a>
+            <a href = "https://free-software-wing.mystrikingly.com/" target="_blank" rel="noreferrer noopener">
+              <img className='social-icon-link-lkdin' src="" alt="fsw" /> 
             </a>
           </div>
         </div>

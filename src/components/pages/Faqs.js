@@ -14,7 +14,7 @@ function Faqs(){
       <details >
         <summary className="tab-control">What is the registration fee?</summary>
         <p>
-          Registration fee for an individual is Rs-400,for a team of 2 is Rs-800,for a team of 4 is 1600.
+          Registration fee for an individual is Rs-500,for a team of 2 is Rs-800,for a team of 4 is 1600.
         </p>
       </details>
       <details >
@@ -136,4 +136,4 @@ function Faqs(){
       </>);
 }
 
-      export default Faqs;
+export default Faqs;
